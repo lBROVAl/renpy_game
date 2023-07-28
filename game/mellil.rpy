@@ -5,7 +5,7 @@
 label mellil:
     scene bg mellil
     with fade
-    "вы находитесь здесь"
+   
     window auto hide
     pause
     #"конец диалога"

@@ -146,24 +146,24 @@ screen lok:
         #        add "gui/knop.png"
         #        action
         hbox:
-            xsize 800
+            xsize 855
             ysize 100
             null height 10
             imagebutton:
-                xalign 0.2
+                xalign 0
                 yalign 0.75
                 idle "gui/map.png"
                 #action [Hide ("lok"), Jump ("map")]
                 action Jump ("map")
             imagebutton:
-                xalign 0.4
+                xalign 0.2
                 yalign 0.75
                 idle "gui/smal_desert.png"
                 #action [Jump ("desert"), Hide ("lok")]
                 action Jump ("desert")
 
             imagebutton:
-                xalign 0.7
+                xalign 0.5
                 yalign 0.75
                 idle "gui/smal_tawn.png"
                 #action [Jump ("mellil"), Hide ("lok")]

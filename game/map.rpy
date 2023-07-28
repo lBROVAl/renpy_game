@@ -5,6 +5,7 @@
 label map:
     scene bg map
     with fade
-    "вы находитесь здесь"
-    "конец диалога"
+    window auto hide
+    pause
+    #"конец диалога"
     return
